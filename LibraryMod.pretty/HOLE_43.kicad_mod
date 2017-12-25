@@ -1,0 +1,13 @@
+(module HOLE_43 (layer F.Cu) (tedit 4976FDDD)
+  (descr "Hole 4.3mm")
+  (tags HOLE)
+  (fp_text reference HOLE (at 0 0) (layer F.SilkS)
+    (effects (font (size 0.762 0.762) (thickness 0.1524)))
+  )
+  (fp_text value Val** (at 0 0) (layer F.SilkS) hide
+    (effects (font (size 0.762 0.762) (thickness 0.1524)))
+  )
+  (fp_circle (center 0 0) (end 4.445 0) (layer F.SilkS) (width 0.2032))
+  (fp_circle (center 0 0) (end 2.2606 0) (layer F.SilkS) (width 0.2032))
+  (pad "" thru_hole circle (at 0 0) (size 8.60044 8.60044) (drill 4.30022) (layers *.Cu *.Mask F.SilkS))
+)
